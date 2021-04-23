@@ -1,5 +1,5 @@
 # artistic-style-transfer-with-neural-net
-This is python code for the implementation of the paper a **Neural Algorithm for Artistic Style **
+This is python code for the implementation of the paper a **Neural Algorithm for Artistic Style**
 
 #### You will need to install dependencies:
 
@@ -12,4 +12,4 @@ Numpy
 
 #### Result obtained
 
- <img src="https://github.com/sharmasapna/artistic-style-transfer-with-neural-net/blob/main/images/Figure3%20obtained%20for%20NAAS%20paper.png" width="250">
+ <img src="https://github.com/sharmasapna/artistic-style-transfer-with-neural-net/blob/main/images/Figure3%20obtained%20for%20NAAS%20paper.png" width="400">
