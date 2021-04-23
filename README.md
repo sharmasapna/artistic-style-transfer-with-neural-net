@@ -12,4 +12,4 @@ Numpy
 
 #### Result obtained
 
- <img src="https://github.com/sharmasapna/artistic-style-transfer-with-neural-net/blob/main/images/Figure3%20obtained%20for%20NAAS%20paper.png">
+ <img src="https://github.com/sharmasapna/artistic-style-transfer-with-neural-net/blob/main/images/Figure3%20obtained%20for%20NAAS%20paper.png" width="250">
