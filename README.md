@@ -13,3 +13,8 @@ Numpy
 #### Result obtained
 
  <img src="https://github.com/sharmasapna/artistic-style-transfer-with-neural-net/blob/main/images/Figure3%20obtained%20for%20NAAS%20paper.png" width="400">
+ 
+ 
+ #### tensorflow2 implementation at :
+ https://www.pluralsight.com/guides/artistic-neural-style-transfer-with-tensorflow-2.0:-theory
+ 
