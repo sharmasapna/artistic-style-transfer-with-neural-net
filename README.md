@@ -25,20 +25,20 @@ We tried to replicate the Figure 3 presented in the paper A Neural Algorithm for
 Steps to follow :
 
 1. Get images for content and style.   
-Preprocess it.   
-Download the pre-trained vgg19 model.   
-Obtain the mean values of the images of the pretained model. As this is to be substracted from the image before feeding to the pretrained vgg19 model
-Building our own model from the trained model :   
-5.1 We will be using onle selected layers of the model that is conv1_1,conv2_1,conv3_1,conv4_1,conv5_1 (all five for the style features) and conv4_2 (for content features).There will be basically 5 differnt models:   
+2. Preprocess it.   
+3. Download the pre-trained vgg19 model.   
+4. Obtain the mean values of the images of the pretained model. As this is to be substracted from the image before feeding to the pretrained vgg19 model
+5.  our own model from the trained model :   
+5.1 We will be using only selected layers of the model that is conv1_1,conv2_1,conv3_1,conv4_1,conv5_1 (all five for the style features) and conv4_2 (for content features).There will be basically 5 differnt models:   
  1. With conv1_1 and conv4_2.  
  2. With conv1_1,conv_2,1 and conv4_2.  
  3. With conv1_1,conv2_1,conv3_1 and conv4_2.  
  4. With conv1_1,conv_2,1,conv3_1,conv4_1 and conv4_2.   
  5. With conv1_1,conv_2,1,conv3_1,conv4_1,conv5_1 and conv4_2.   
  And we will be presenting the results for four different beta values (100000,10000,1000,100) for each layer.     
-5.2 We will use average pooling instead of max pooling.   
+5.2 We will use average pooling instead of max pooling as done in vgg19 architechture.   
 Calculating the total loss(content loss and style loss):   
-6.1 generate an image with white notise or an image with some noise in the content image. This will be our final image.   
+6.1 generate an image with white noise or an image with some noise in the content image. This will be our final image.   
 6.2 Calculate the content loss as the squared difference between the original content image and the generated image.   
 6.3 Calclulate the style loss by squared difference between the gram matrices of the original style image and the genrated image.   
 6.4 Gram matrices are the correlation between different filter responses given by the Gram matrix Gˡ, where Gˡᵢⱼ is the inner product between the vectorized feature map i and j in layer l.   
