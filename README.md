@@ -24,7 +24,7 @@ We tried to replicate the Figure 3 presented in the paper A Neural Algorithm for
 
 Steps to follow :
 
-Get images for content and style.   
+1. Get images for content and style.   
 Preprocess it.   
 Download the pre-trained vgg19 model.   
 Obtain the mean values of the images of the pretained model. As this is to be substracted from the image before feeding to the pretrained vgg19 model
